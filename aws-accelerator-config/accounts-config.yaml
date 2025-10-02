@@ -23,4 +23,13 @@ mandatoryAccounts:
     email: ssthungo+audit@amazon.com
     organizationalUnit: Security
     warm: false
-workloadAccounts: []
+workloadAccounts:
+  # Your existing workload accounts...
+  - name: Account1
+    email: ssthungo+015800953021@amazon.com
+    organizationalUnit: Root
+    ignore: true
+  - name: Account2
+    email: ssthungo+new@amazon.com
+    organizationalUnit: Root
+    ignore: true
