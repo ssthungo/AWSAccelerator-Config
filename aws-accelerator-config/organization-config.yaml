@@ -2,16 +2,6 @@ enable: true
 organizationalUnits:
   - name: Security
   - name: Infrastructure
-  - name: SST
-    ignore: true
-  - name: Sandbox
-    ignore: true
-  - name: Sandbox-CT
-    ignore: true
-  - name: Inner-SandBox-CT
-    ignore: true
-  - name: AFT
-    ignore: true
 serviceControlPolicies: []
 taggingPolicies: []
 chatbotPolicies: []
